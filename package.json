@@ -1,0 +1,25 @@
+{
+  "name": "kamipage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "gsap": "^3.13.0",
+    "lucide-vue-next": "^0.468.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@tailwindcss/vite": "^4.1.1",
+    "tailwindcss": "^4.1.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4",
+    "@types/node": "^22.13.5"
+  }
+}
